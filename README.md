@@ -17,7 +17,11 @@ Skipped Operators, Control Flow, and Methods because they are the same as C++.
 10. Packages
 11. Regex
 12. Exception Handling
-
+13. Collections
+14. File I/O
+15. Multi Threading
+16. Serialization
+17. Generics
 
 Resources:
 
