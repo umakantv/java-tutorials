@@ -16,6 +16,7 @@ Skipped Operators, Control Flow, and Methods because they are the same as C++.
 9. Interfaces
 10. Packages
 11. Regex
+12. Exception Handling
 
 
 Resources:
