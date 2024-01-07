@@ -3,10 +3,9 @@ package com.example.regex;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class main {
+class RegularExpression {
     public static void main(String[] args) {
 
-        // RegularExpression re = new RegularExpression();
         // Pattern p = Pattern.compile("a{4}\\w{2}\\d{1}"); // aaaa\w\w\d
         Pattern p = Pattern.compile("love"); // aaaa\w\w\d
         String inputString = "Another love, another love";
