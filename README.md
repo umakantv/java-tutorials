@@ -14,6 +14,7 @@ Skipped Operators, Control Flow, and Methods because they are the same as C++.
 7. Constructors
 8. Object Oriented Programming Concepts (OOPS)
 9. Interfaces
+10. Packages
 
 
 Resources:
