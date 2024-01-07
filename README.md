@@ -10,5 +10,6 @@ Skipped Operators, Control Flow, and Methods because they are the same as C++.
 3. Variables
 4. Arrays
 5. Strings
-6. Constructors
+6. Functions
+7. Constructors
 
