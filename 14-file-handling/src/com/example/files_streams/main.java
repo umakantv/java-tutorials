@@ -71,7 +71,7 @@ class FileHandling {
             // 1 GB =  1073741824 bytes
             // 100 MB = 104857600 bytes
             final int charCount = 1073741824; // 1 GB
-            int size = 0, counterForGarbageCollection = 0;
+            int size = 0; // counterForGarbageCollection = 0;
             String word = "";
 
             // Get random words from the dictionary
@@ -83,13 +83,14 @@ class FileHandling {
                 // System.out.println(word);
                 // fileStream.write((word + " ").getBytes());
 
-                if (size > counterForGarbageCollection * (charCount / 10)) { // wait 10 times
-                    System.out.println("Waiting for Garbage Collection: " + counterForGarbageCollection);
-                    counterForGarbageCollection++;
-                    Thread.sleep(1000);
-                }
+                // if (size > counterForGarbageCollection * (charCount / 10)) { // wait 10 times
+                //     System.out.println("Waiting for Garbage Collection: " + counterForGarbageCollection);
+                //     counterForGarbageCollection++;
+                //     Thread.sleep(1000);
+                // }
             }
 
+            bw.flush(); // flush the buffer, so that all data written to the stream is written to its destination
             bw.close();
 
         } catch (Exception e) {
