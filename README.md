@@ -19,9 +19,9 @@ Skipped Operators, Control Flow, and Methods because they are the same as C++.
 12. Exception Handling
 13. Collections
 14. File I/O
-15. Multi Threading
-16. Serialization
-17. Generics
+15. Serialization
+16. Generics
+17. Multi Threading
 
 Resources:
 
