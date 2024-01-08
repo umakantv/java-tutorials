@@ -1,6 +1,5 @@
 package com.example.files_streams;
 
-import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -8,6 +7,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Random;
@@ -36,7 +36,7 @@ class FileHandling {
             BufferedReader br = new BufferedReader(
                 new InputStreamReader(
                     new FileInputStream(filePath),
-                    "UTF-8"
+                    StandardCharsets.UTF_8
                 )
             );
             String line = br.readLine();
@@ -62,7 +62,7 @@ class FileHandling {
             BufferedWriter bw = new BufferedWriter(
                 new OutputStreamWriter(
                     new FileOutputStream(file, false),
-                    "UTF-8"
+                    StandardCharsets.UTF_8
                 )
             );
 
