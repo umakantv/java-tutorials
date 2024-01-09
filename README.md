@@ -22,8 +22,10 @@ Skipped Operators, Control Flow, and Methods because they are the same as C++.
 15. Serialization
 16. Generics
 17. Multi Threading
+18. Records - Data Classes
 
 Resources:
 
 1. https://www.tutorialspoint.com/java/java_interfaces.htm
 2. https://youtu.be/41S4oot3Y9w?feature=shared
+3. https://www.baeldung.com/java-record-keyword
